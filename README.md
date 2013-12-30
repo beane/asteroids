@@ -1,6 +1,6 @@
 # Asteroids
 
-Welcome to my asteroids game! Move with arrows keys or AWSD. Fire bullets with spacebar.
+Welcome to my asteroids game!
 
 Much thanks to [keymaster](https://github.com/madrobby/keymaster) for key bindings.
 
@@ -15,4 +15,4 @@ This is one of my first projects written in JavaScript. It emphasizes well-organ
 
 ## How to play
 
-Open the index.html file in your favorite browser.
+Open the index.html file in your favorite browser. Move with arrows keys or AWSD. Fire bullets with spacebar.
