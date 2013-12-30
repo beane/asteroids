@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ASTEROIDS</title>
+</head>
+
+<body>
+
+  <canvas></canvas>
+
+  <script type="application/javascript" src="keymaster.js"></script>
+  <script type="application/javascript"
+          src="http://underscorejs.org/underscore.js"></script>
+  <script type="application/javascript" src="helper.js"></script>
+  <script type="application/javascript" src="moving_object.js"></script>
+  <script type="application/javascript" src="bullet.js"></script>
+  <script type="application/javascript" src="asteroid.js"></script>
+  <script type="application/javascript" src="ship.js"></script>
+  <script type="application/javascript" src="game.js"></script>
+
+  <script>
+    var canvas = document.getElementsByTagName("canvas")[0];
+    canvas.setAttribute('width', A.Game.DIM_X);
+    canvas.setAttribute('height', A.Game.DIM_Y);
+    var g = new A.Game(canvas.getContext('2d'));
+    g.start(10);
+  </script>
+
+</body>
+</html>
